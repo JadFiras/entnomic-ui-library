@@ -18,7 +18,7 @@
 
 ]]
 
-local BASE_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/entnomic/main/src/"
+local BASE_URL = "https://raw.githubusercontent.com/JadFiras/entnomic-ui-library/tree/main/src"
 
 return (function()
 	local cache = {}

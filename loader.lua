@@ -18,7 +18,9 @@
 
 ]]
 
-local BASE_URL = "https://raw.githubusercontent.com/JadFiras/entnomic-ui-library/tree/main/src"
+local BASE_URL = "https://raw.githubusercontent.com/JadFiras/entnomic-ui-library/refs/heads/main/src/" -- must end with / so module paths resolve correctly
+
+-- GitHub raw files must use raw.githubusercontent.com; the /tree/ URL is an HTML page.
 
 return (function()
 	local cache = {}

@@ -13,7 +13,7 @@
 ]]
 
 local Entnomic = loadstring(game:HttpGet(
-	"https://raw.githubusercontent.com/YOUR_USERNAME/entnomic/main/loader.lua"
+	"https://raw.githubusercontent.com/JadFiras/entnomic-ui-library/refs/heads/main/loader.lua"
 ))()
 
 local Window = Entnomic:CreateWindow({
